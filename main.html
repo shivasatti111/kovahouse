@@ -1,50 +1,215 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kova House – Homemade Sweets</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sri Venkateswara's KOVA HOUSE</title>
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; background: #fff8f0; }
-    header { background: #c67c4e; color: white; padding: 20px; text-align: center; }
-    .sweet-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
-    .sweet-item { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 10px; width: 200px; text-align: center; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);}
-    .sweet-item img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; }
-    .price { font-weight: bold; color: #444; margin: 5px 0; }
-    .order-btn { background: #25D366; color: white; padding: 8px 12px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 8px;}
-    footer { text-align: center; padding: 20px; background: #f8e6d2; margin-top: 20px; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c0392b;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      font-style: italic;
+      margin-top: 5px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .sweets-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .sweet-item {
+      background-color: #fefefe;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .sweet-item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .sweet-item h3 {
+      margin: 0;
+      color: #c0392b;
+    }
+
+    .sweet-item p {
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    .whatsapp-button {
+      display: block;
+      margin: 30px auto;
+      width: fit-content;
+      padding: 12px 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebc59;
+    }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Welcome to Kova House</h1>
-  <p>Delicious homemade sweets. Order via WhatsApp!</p>
+  <h1>Sri Venkateswara's KOVA HOUSE</h1>
+  <p>"Purely Traditional"</p>
 </header>
 
-<section class="sweet-grid">
-  <!-- Sweet 1 -->
-  <div class="sweet-item">
-    <img src="images/kaju-katli.jpg" alt="Kaju Katli">
-    <h3>Kaju Katli</h3>
-    <div class="price">₹500/kg</div>
-    <a class="order-btn" href="https://wa.me/91XXXXXXXXXX?text=I want to order Kaju Katli from Kova House">Order on WhatsApp</a>
+<div class="container">
+  <h2>Our Sweets</h2>
+  <div class="sweets-list">
+
+    <div class="sweet-item">
+      <img src="images/kova.jpg" alt="Kova">
+      <h3>Kova</h3>
+      <p>₹720/kg</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/kova-mudha.jpg" alt="Kova Mudha">
+      <h3>Kova Mudha</h3>
+      <p>₹720/kg</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/kova-kajjikai.jpg" alt="Kova Kajjikai">
+      <h3>Kova Kajjikai</h3>
+      <p>₹720/kg</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/sunni-vundalu.jpg" alt="Sunni Vundalu">
+      <h3>Sunni Vundalu</h3>
+      <p>₹600/kg</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/raagi-laddu.jpg" alt="Raagi Laddu">
+      <h3>Raagi Laddu</h3>
+      <p>₹600/kg</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/korra-laddu.jpg" alt="Korra Laddu">
+      <h3>Korra Laddu</h3>
+      <p>₹600/kg</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/putharekulu-bellam.jpg" alt="Putharekulu Bellam">
+      <h3>Putharekulu (Bellam)</h3>
+      <p>₹20/piece</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/putharekulu-dryfruit.jpg" alt="Putharekulu Dry Fruit">
+      <h3>Putharekulu (Dry Fruit)</h3>
+      <p>₹30/piece</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/kaju-bellam.jpg" alt="Kaju Bellam Patti">
+      <h3>Kaju Bellam Patti</h3>
+      <p>₹250/250g</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/bellam-gavvalu.jpg" alt="Bellam Gavvalu">
+      <h3>Bellam Gavvalu</h3>
+      <p>₹100/250g</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/bellam-gorumiti.jpg" alt="Bellam Gorumiti">
+      <h3>Bellam Gorumiti</h3>
+      <p>₹100/250g</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/boondhi.jpg" alt="Boondhi">
+      <h3>Boondhi</h3>
+      <p>₹70/200g</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/janthikalu.jpg" alt="Janthikalu">
+      <h3>Janthikalu</h3>
+      <p>Price Varies</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/vaamu-pakodi.jpg" alt="Vaamu Pakodi">
+      <h3>Vaamu Pakodi</h3>
+      <p>Price Varies</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/potato-chips.jpg" alt="Potato Chips">
+      <h3>Potato Chips</h3>
+      <p>Price Varies</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/ribbon-pakodi.jpg" alt="Ribbon Pakodi">
+      <h3>Ribbon Pakodi</h3>
+      <p>Price Varies</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/hot-chips.jpg" alt="Hot Chips">
+      <h3>Hot Chips</h3>
+      <p>Price Varies</p>
+    </div>
+
+    <div class="sweet-item">
+      <img src="images/pappu-chekodi.jpg" alt="Pappu Chekodi">
+      <h3>Pappu Chekodi</h3>
+      <p>Price Varies</p>
+    </div>
+
   </div>
 
-  <!-- Sweet 2 -->
-  <div class="sweet-item">
-    <img src="images/gulab-jamun.jpg" alt="Gulab Jamun">
-    <h3>Gulab Jamun</h3>
-    <div class="price">₹350/kg</div>
-    <a class="order-btn" href="https://wa.me/91XXXXXXXXXX?text=I want to order Gulab Jamun from Kova House">Order on WhatsApp</a>
-  </div>
-
-  <!-- Add more items as needed -->
-</section>
-
-<footer>
-  <p>📞 Order now via WhatsApp or Pay via <a href="https://your-payment-link.com" target="_blank">UPI/Online Payment</a></p>
-  <p>&copy; 2025 Kova House. All rights reserved.</p>
-</footer>
+  <a class="whatsapp-button" href="https://wa.me/919493168361" target="_blank">
+    📦 Order Now on WhatsApp
+  </a>
+</div>
 
 </body>
 </html>
