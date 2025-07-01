@@ -181,3 +181,46 @@
       <div class="sweet-item">
         <img src="images/janthikalu.jpg" alt="Janthikalu">
         <h3>Janthikalu</h3>
+        <p>Price Varies</p>
+      </div>
+
+      <div class="sweet-item">
+        <img src="images/vaamu-pakodi.jpg" alt="Vaamu Pakodi">
+        <h3>Vaamu Pakodi</h3>
+        <p>Price Varies</p>
+      </div>
+
+      <div class="sweet-item">
+        <img src="images/potato-chips.jpg" alt="Potato Chips">
+        <h3>Potato Chips</h3>
+        <p>Price Varies</p>
+      </div>
+
+      <div class="sweet-item">
+        <img src="images/ribbon-pakodi.jpg" alt="Ribbon Pakodi">
+        <h3>Ribbon Pakodi</h3>
+        <p>Price Varies</p>
+      </div>
+
+      <div class="sweet-item">
+        <img src="images/hot-chips.jpg" alt="Hot Chips">
+        <h3>Hot Chips</h3>
+        <p>Price Varies</p>
+      </div>
+
+      <div class="sweet-item">
+        <img src="images/pappu-chekodi.jpg" alt="Pappu Chekodi">
+        <h3>Pappu Chekodi</h3>
+        <p>Price Varies</p>
+      </div>
+
+    </div>
+
+    <a class="whatsapp-button" href="https://wa.me/919848833378" target="_blank">
+      📦 Order Now on WhatsApp
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
